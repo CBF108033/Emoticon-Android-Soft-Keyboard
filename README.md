@@ -7,4 +7,4 @@
 <div align=center id="allScene">顏文字小鍵盤LOGO</div>
 
 ## 實際操作
-<div align=center><img alt="costom_keyboard_icon" src="./images/switch_keyboard.gif" width=50%></div>
+<div><img alt="costom_keyboard_icon" src="./images/switch_keyboard.gif" width=20%></div>
