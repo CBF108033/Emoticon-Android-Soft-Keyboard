@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="19%p"
+    android:horizontalGap="5dp"
+    android:verticalGap="5dp"
+    android:keyHeight="40dp">
+    <Row>
+        <Key android:codes="97" android:keyLabel="0" android:keyEdgeFlags="left"/>
+        <Key android:codes="98" android:keyLabel="b"/>
+        <Key android:codes="99" android:keyLabel="c"/>
+        <Key android:codes="100" android:keyLabel="d"/>
+        <Key android:codes="101" android:keyLabel="e" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="102" android:keyLabel="f" android:keyEdgeFlags="left"/>
+        <Key android:codes="103" android:keyLabel="g"/>
+        <Key android:codes="104" android:keyLabel="h"/>
+        <Key android:codes="105" android:keyLabel="i"/>
+        <Key android:codes="106" android:keyLabel="j" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="107" android:keyLabel="a" android:keyEdgeFlags="left"/>
+        <Key android:codes="108" android:keyLabel="b"/>
+        <Key android:codes="109" android:keyLabel="c"/>
+        <Key android:codes="110" android:keyLabel="d"/>
+        <Key android:codes="111" android:keyLabel="e" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="65" android:keyLabel="Last" android:keyEdgeFlags="left"/>
+        <Key android:codes="112" android:keyLabel="g"/>
+        <Key android:codes="113" android:keyLabel="h"/>
+        <Key android:codes="114" android:keyLabel="i"/>
+        <Key android:codes="66" android:keyLabel="Next" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="-5"
+            android:keyLabel="DELETE"
+            android:keyWidth="39%p"
+            android:keyEdgeFlags="left"
+            android:isRepeatable="true"/>
+        <Key android:codes="32"
+            android:keyLabel="SPACE"
+            android:keyWidth="39%p"
+            android:isRepeatable="true"/>
+        <Key android:codes="10"
+            android:keyLabel="ENTER"
+            android:keyWidth="19%p"
+            android:keyEdgeFlags="right"/>
+    </Row>
+
+</Keyboard>
